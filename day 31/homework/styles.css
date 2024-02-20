@@ -1,0 +1,65 @@
+* {
+    background-image: url(https://scontent.ftbs6-2.fna.fbcdn.net/v/t39.30808-6/408864179_342479481868687_2724919989645877908_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeESW2M70pyw8umCDPgtNfOdW7tgzUOr-gxbu2DNQ6v6DKvUQKdBlmnoWytZ_PK1R56TaJiu8ThGO3G7SSsgjg7z&_nc_ohc=wzUalCw6Zr4AX-0aQAO&_nc_ht=scontent.ftbs6-2.fna&oh=00_AfCrH43KYyGemAIXpAa0bkv4-2mc79MRgKm14HeRjsESXA&oe=659F0993);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+main {
+    position: absolute;
+    top: 300px;
+    margin-left: 50px;
+    font-size: 20px;
+    max-width: 900px;
+    text-align: left;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-content {
+    flex: 1;
+    min-width: 600px;
+}
+
+.video-container {
+    margin-left: 300px;
+    position: relative;
+    bottom: 100px;
+}
+.video-container video{
+    border-radius: 10px;
+}
+form {
+    margin-top: 30px;
+}
+
+.center {
+    text-align: center;
+    margin: 10px 300px 10px 0;
+}
+
+select {
+    padding: 10px;
+    background: black;
+    color: white;
+    margin-top: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+audio{
+    width: 500px;
+    background-color: black;
+    color: white;
+}

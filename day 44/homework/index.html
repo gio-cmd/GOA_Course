@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <p id="myp">text text text...</p>
+        <button id="mybtn">Click Me</button>
+    </main>
+    <footer></footer>
+    <script>
+        let num1 = prompt("Enter a randmom number (required): ");
+        let num2 = prompt("Enter a randmom number (required): ");
+        let num3 = prompt("Enter a randmom number (required): ");
+        console.log(Number(num1) + Number(num2) + Number(num3))
+        let p = document.getElementById('myp')
+        let button = document.getElementById('mybtn')
+        button.addEventListener('click', function() {
+            p.innerText = 'different text';
+            p.style.color = 'blue'
+        });
+    </script>
+</body>
+</html>

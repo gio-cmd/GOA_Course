@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fs{
+    font-size: 24px;
+    color: white;
+}
+
+.fe a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.white-text{
+    color: white;
+}
+.main{
+    padding: 50px;
+    text-align: center;
+}
+
+.introduction h2{
+    color: darkgray;
+}
+
+.introduction h1{
+    color: #555;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
