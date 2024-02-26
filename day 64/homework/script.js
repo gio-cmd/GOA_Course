@@ -109,3 +109,6 @@ registrationForm.addEventListener('submit', function(event) {
 
     console.log('User registered:', user);  // console log user object
 });
+
+
+

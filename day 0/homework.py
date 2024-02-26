@@ -1,227 +1,253 @@
 from turtle import *
-
-speed(0)
-width(1)
-bgcolor("green")
-
+speed(10)
+# miwa
 penup()
-goto(-500, -100)
+goto(-250, -100)
 pendown()
-color("skyblue")
+color("black")
 begin_fill()
+forward(600)
+right(90)
+forward(100)
+right(90)
+forward(600)
+right(90)
+forward(100)
+end_fill()
+#ca
 
-for i in range(2):
-   forward(1000)
-   left(90)
-   forward(600)
-   left(90)
+color("blue")
+begin_fill()
+forward(500)
+right(90)
+forward(600)
+right(90)
+forward(500)
+right(90)
+forward(600)
 end_fill()
 
-#draw a sun 
-
+# house
+color("red")
+begin_fill()
+right(180)
 penup()
-goto(-320, 230)
+goto(-150, -100)
+pendown()
+left(90)
+forward(200)
+right(90)
+forward(150)
+right(90)
+forward(200)
+right(90)
+forward(150)
+end_fill()
+penup()
+right(90)
+forward(200)
+pendown()
+right(70)
+forward(80)
+right(40)
+forward(80)
+
+# კრები 
+penup()
+right(70)
+forward(200)
+pendown()
+right(90)
+forward(55)
+color("yellow")
+begin_fill()
+right(90)
+forward(85)
+left(90)
+forward(40)
+left(90)
+forward(85)
+left(40)
+end_fill()
+
+
+
+#მზე 
+right(180)
+penup()
+goto(150, 130)
 pendown()
 color("yellow")
 begin_fill()
-circle(60)
+circle(35)
 end_fill()
 
-# draw a star
-
+#varskvlvebi
 penup()
-goto(300, 300)
+goto(70, 130)
 pendown()
-color("white")
+color("green")
 begin_fill()
-
- 
-penup()
-goto(150, 260)
-pendown()
-
-left(70)
-forward(45)
-
-left(70)
-forward(45)
-
-right(140)
-forward(45)
-
-left(75)
-forward(45)
-
-right(150)
-forward(45)
-
-left(75)
-forward(45)
-
-right(140)
-forward(45)
-
-left(75)
-forward(45)
-
-right(150)
-forward(50)
-
-left(75)
-forward(50) 
-
-
-# draw second star
-
-penup()
-goto(300, 300)
-pendown()
-color("white")
-begin_fill()
- 
-penup()
-goto(-120, 300)
-pendown()
-
-left(70)
-forward(45)
-
-left(70)
-forward(45)
-
-right(140)
-forward(45)
-
-left(75)
-forward(45)
-
-right(150)
-forward(45)
-
-left(75)
-forward(45)
-
-right(140)
-forward(45)
-
-left(75)
-forward(45)
-
-right(150)
-forward(50)
-
-left(75)
-forward(50)
-
-
-penup()
-goto(-300, -100)
-pendown()
-
-
-left(10)
-
-
-width(6)
-color("black")
-begin_fill()
-for i in range(4):
-  
-  forward(130)
-  left(90)
+circle(5)
 end_fill()
 
+penup()
+goto(-90, 140)
+pendown()
+color("green")
+begin_fill()
+circle(5)
+end_fill()
 
+penup()
+goto(-190, 120)
+pendown()
+color("green")
+begin_fill()
+circle(5)
+end_fill()
 
-forward(130)
-left(90)
+penup()
+goto(190, 150)
+pendown()
+color("green")
+begin_fill()
+circle(5)
+end_fill()
+
+# house
+
 
 color("red")
 begin_fill()
-
-forward(130)
-right(130)
-
-forward(115)
-right(105)
-
-forward(105)
-end_fill()
-
-#second house
-
+right(180)
 penup()
-goto(-0, -100)
+goto(-230, -100)
 pendown()
+left(90)
+forward(150)
+right(90)
+forward(100)
+right(90)
+forward(150)
+right(90)
+forward(100)
+end_fill()
+penup()
+right(90)
+forward(150)
+pendown()
+right(72)
+forward(60)
+right(40)
+forward(45)
 
+# კრები 
+penup()
+right(69)
+forward(150)
+pendown()
+right(90)
+forward(25)
+color("yellow")
+begin_fill()
+right(90)
+forward(65)
+left(90)
+forward(40)
+left(90)
+forward(65)
+left(40)
+end_fill()
+left(231)
 
-left(145)
+# house 2
+color("green")
+begin_fill()
+right(180)
+penup()
+goto(-50, -100)
+pendown()
+left(90)
+forward(150)
+right(90)
+forward(100)
+right(90)
+forward(150)
+right(90)
+forward(100)
+end_fill()
+penup()
+right(90)
+forward(150)
+pendown()
+right(72)
+forward(60)
+right(40)
+forward(45)
 
-
-width(6)
+# კრები 2
+penup()
+right(69)
+forward(150)
+pendown()
+right(90)
+forward(25)
 color("black")
 begin_fill()
-for i in range(4):
-  
-  forward(130)
-  left(90)
-end_fill()
-
-
-
-forward(130)
+right(90)
+forward(65)
 left(90)
-
-color("red")
-begin_fill()
-
-forward(130)
-right(130)
-
-forward(115)
-right(105)
-
-forward(105)
+forward(40)
+left(90)
+forward(65)
+left(40)
 end_fill()
+right(129)
 
-# third house
 
+# house 3
+color("purple")
+begin_fill()
+right(180)
 penup()
-goto(300, -100)
+goto(120, -100)
 pendown()
-
-
-left(145)
-
-
-width(6)
-color("black")
-begin_fill()
-for i in range(4):
-  
-  forward(130)
-  left(90)
-end_fill()
-
-
-
-forward(130)
 left(90)
-
-color("red")
-begin_fill()
-
-forward(130)
-right(130)
-
-forward(115)
-right(105)
-
-forward(105)
+forward(150)
+right(90)
+forward(100)
+right(90)
+forward(150)
+right(90)
+forward(100)
 end_fill()
+penup()
+right(90)
+forward(150)
+pendown()
+right(72)
+forward(60)
+right(40)
+forward(45)
 
-
-
+# კრები 3
+penup()
+right(69)
+forward(150)
+pendown()
+right(90)
+forward(25)
+color("green")
+begin_fill()
+right(90)
+forward(65)
+left(90)
+forward(40)
+left(90)
+forward(65)
+left(40)
+end_fill()
 
 
 exitonclick()
