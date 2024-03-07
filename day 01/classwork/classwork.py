@@ -1,4 +1,17 @@
-Age = input("So yesterday I went from a kind kid to this guy with anger issues So now give me ur age")
-age = (12)
-Name = input("Tell me ur name who are u so I can do the demonstration of Met a new person")
-print (str(Age) + " " + (Name) + " " + str(int(age) * 7 / 3 + 4 * 9))
+# required_weight = 50
+# required_height = 170
+# weight = int(input("enter your weight"))
+# height = int(input("enter your height"))
+
+# print(required_height > height)
+# print(required_weight > weight)
+
+
+required_ajimaniebi = 30
+required_buqnebi = 60
+
+ajimaniebi = int(input("how many pushups can you do"))
+buqnebi = int(input("how many squats can you do"))
+
+print(required_ajimaniebi > ajimaniebi)
+print(required_ajimaniebi > buqnebi)
