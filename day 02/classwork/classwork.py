@@ -1,12 +1,10 @@
-##print(sedan)
+mom_age = 20
+dad_age = 10
 
-# = 9
-#y = 3
+if mom_age > dad_age:
+    print("my mom is older than my dad")
+elif mom_age == dad_age:
+    print("My parents have same age")
+else:
+    print("My dad is older than my mom")
 
-#print(x/y)
-
-#print(14 + "km")
-
-x = 7
-
-print(x!=8)
