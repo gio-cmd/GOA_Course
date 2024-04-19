@@ -3,19 +3,25 @@
     max-width: 600px; /* Adjust width as needed */
     margin: 0 auto;
     overflow: hidden;
-}
-
-.images {
+  }
+  
+  .images {
     display: flex;
     transition: transform 0.5s ease;
-}
-
-.images img {
+  }
+  
+  .images img {
     width: 100%;
     height: auto;
-}
-
-button {
+    filter: blur(5px); /* Initial blur for all images */
+    transition: filter 0.5s ease; /* Add transition effect */
+  }
+  
+  .images img:hover {
+    filter: none; /* Remove blur on hover */
+  }
+  
+  button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -24,12 +30,16 @@ button {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-}
-
-#prevBtn {
-    left: 0;        
-}
-
-#nextBtn {
+  }
+  
+  #prevBtn {
+    left: 0;
+  }
+  
+  #nextBtn {
     right: 0;
-}
+  }
+  
+  .images img:nth-child(2) {
+    filter: none; /* Keep the main image unblurred */
+  }
