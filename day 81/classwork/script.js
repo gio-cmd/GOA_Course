@@ -48,12 +48,12 @@
 
 // 2
 
-const list = [1, 2, 3, 4, 5]
-const list2 = list.map((num, index) => {
-    if (index % 2 == 0) {
-        return num * 2
-    } else {
-        return num
-    }
-})
-console.log(list2);
+// const list = [1, 2, 3, 4, 5]
+// const list2 = list.map((num, index) => {
+//     if (index % 2 == 0) {
+//         return num * 2
+//     } else {
+//         return num
+//     }
+// })
+// console.log(list2);
