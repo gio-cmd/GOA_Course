@@ -75,3 +75,60 @@ def pig_it(text):
             result.append(word) 
     return " ".join(result)
 
+# 11
+
+def to_underscore(string):
+    if isinstance(string, int):
+        return str(string)
+    result_str = ""
+    for i in string:
+        if i.isupper():
+            result_str += " " + i.lower()
+        else:
+            result_str += i
+    result_lis = result_str.split(" ")
+    return "_".join(result_lis)[1:]
+
+# 12
+
+def sort_array(arr):
+    ods = []
+    for i in arr:
+        if i % 2 != 0:
+            ods.append(i)
+    ods = sorted(ods)
+    count = 0
+    result = []
+    for i in arr:
+        if i % 2 == 0:
+            result.append(i)
+        else:
+            result.append(ods[count])
+            count += 1
+    return result
+
+# 13
+
+def collatz(n):
+    sequence = [n] 
+    while n != 1:
+        if n % 2 == 0:
+            n //= 2 
+        else:
+            n = 3 * n + 1 
+        sequence.append(n)
+    return '->'.join(str(i) for i in sequence)
+
+# 14
+
+def to_weird_case(words):
+    result = ""
+    word = words.split(" ")
+    for word in word:
+        for i, char in enumerate(word):
+            if i % 2 == 0:  
+                result += char.upper()
+            else:
+                result += char.lower()
+        result += " "
+    return result[:-1]
