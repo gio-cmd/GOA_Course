@@ -1,11 +1,23 @@
-number = int(input("enter a number: "))
-
-for i in range(number):
-    if i % 2 == 0:
-        print(i, "even")
-    else:
-        print(i, "odd")
+names = ['giorgi', 'luka', 'nuka', 'nika']
 
 
-10 / 2 = 0
-11 / 2 = 1
+for i in range(4):
+    print(names[i])
+
+
+list = [1, 'luka', 1.14, True]
+
+list[0] = 2
+list[1] = 'nika'
+
+
+
+
+print(list)
+
+
+numbers = [1,2,3,4,5,6,7,8,9,10]
+
+print(numbers[0])
+print(numbers[9])
+
