@@ -113,15 +113,18 @@ const chain = new Promise((resolve) => {
 
 chain
     .then(result => {
-        return result.push('luka');
+        result.push('luka');
+        return result;
     })
     .then(result => {
-        return result.push('jamal');
+        result.push('jamal');
+        return result;
     })
     .then(result => {
-        console.log(result);
-        return result.push('aleks');
+        console.log(result);  // Output: ['luka', 'jamal']
+        result.push('aleks');
+        return result;
     })
     .then(result => {
-        console.log(result);
+        console.log(result);  // Output: ['luka', 'jamal', 'aleks']
     });
