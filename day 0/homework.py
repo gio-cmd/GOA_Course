@@ -1,27 +1,58 @@
-# 1) მომხმარებელს შემოატანინეთ 4 სხავდასხვა რიცხვი Done
-#  და ამ ოთხივე რიცხვზე მოახდინეთ არითმეტიკური ოპერაციები. +,-,*,//,**
+# print('Login succeful')
+
+# for i in range(0, 10):
+#     print('hello')
+#     print('luka')
+
+# print('hello jamal')
 
 
-# number1 = int(input("Enter a number: "))
-# number2 = int(input("Enter a number: "))
-# number3 = int(input("Enter a number: "))
-# number4 = int(input("Enter a number: "))
+
+# #           start     end
+# for i in range(1,     15):
+#     print(i, ". hello")
 
 
-# print(number1 + number2)
-# print()
+
+# for i in range(10):
+#     print(i)
 
 
-5 > 2 #True
-2 > 10 #False
 
-print(1 > 0)
-print(5 > 10)
+# for i in range(10):
+#     print(i)
 
-
-age1 = int(input("Enter a number: "))
-age2 = int(input("Enter a number: "))
+# print(i)
 
 
-#      20     10
-print(age1 > age2)
+# #             start   end  step
+# for i in range(15,     0,  -2):
+#     print(i)
+
+
+# word = 'nugzari'
+
+# for i in word:
+#     print(i)
+
+#       012345
+# word = 'banana'
+
+# for i in range(6):
+#     print(word[i])
+
+# 0 1 2 3 4 5 
+
+
+#3 გამოვიტანოთ ყველა მეორე რიცხვი 0 იდან 100ის ჩათვლით
+
+#            start  end  step
+# for i in range(1,   101, 2):
+    # print(i)
+
+
+# 4 გამოვითანოთ რიცხვები 100 იდან 0ამდე
+
+
+# for i in range(100, 0, -2):
+#     print(i)
