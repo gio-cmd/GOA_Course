@@ -8,9 +8,28 @@
 
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 <body>
     <div id="root"></div>
-    <script src="script.js"></script>
+
+    <script type="text/babel">
+        // function App() {
+        //     return (
+        //         React.createElement('div', {id: 'root', className: 'root'}, React.createElement('h1', null, 'luka'))
+        //     );
+        // }
+
+        function App() {  // create a code block for certain part of website
+            let count = 0
+            return (
+                <div>  // example of jsx sysntax
+                    <p>Count: {count}</p>
+                </div>
+            );
+        }
+
+        ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(App)); // render the changes on website
+    </script>
 </body>
 </html>

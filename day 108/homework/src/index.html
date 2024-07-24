@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+
+    h1>THis is counter project</h1>
+
+    <p id="result">0</p>
+
+    <button id="add">add 1</button>
+    <button id="substract">substract 1</button>
+
+    
+    <script type="text/babel">  
+        // function App() {
+        //     const [count, setCount] = React.useState(0);
+
+        //     const handleClick = () => {
+        //         setCount(count + 1);
+        //     };
+
+        //     return (
+        //         <div> 
+        //             <p>Count: {count}</p>
+        //             <button onClick={handleClick}>Click</button>
+        //         </div>
+        //     );
+        // }
+
+        // ReactDOM.createRoot(document.getElementById('root')).render(<App />); -->
+
+
+        let add = document.getElementById('add')
+        let substract = document.getElementById('substract')
+        let result = document.getElementById('result')
+
+        add.addEventListener('click', ()=>{
+            result.innerHTML += 1
+        })
+
+        substract.addEventListener('click', ()=>{
+            result.innerHTML -= 1
+        })
+    </script>
+</body>
+</html>

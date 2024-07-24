@@ -56,3 +56,21 @@
 
 # for i in range(100, 0, -2):
 #     print(i)
+
+
+
+
+# seats = 50
+
+# #სანამ სკამების რაოდენობა > 0
+# while seats > 0: #False
+#     print('buy ticket')
+#     seats = seats - 1
+
+
+car_amount = 50
+
+#    True
+while car_amount > 0:
+    print(car_amount)
+    car_amount = car_amount - 1
