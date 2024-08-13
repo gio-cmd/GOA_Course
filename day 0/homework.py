@@ -68,9 +68,101 @@
 #     seats = seats - 1
 
 
-car_amount = 50
+# car_amount = 50
 
-#    True
-while car_amount > 0:
-    print(car_amount)
-    car_amount = car_amount - 1
+# #    True
+# while car_amount > 0:
+#     print(car_amount)
+#     car_amount = car_amount - 1
+
+
+
+# jami = 100
+
+# for i in range(1, 11):
+#     jami += i
+
+# print(jami)
+
+
+# for i in range(1, 10000001):
+#     print(i, 'hello')
+
+
+# for i in range(1, 101):
+#     print(i + 1)
+
+
+
+# 0 1 2 3 4 5 6 7 8 9
+
+# print(0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10)
+
+
+
+# print(5 <= 5)
+
+# # print(5 < 5) False
+
+# # print(5 == 5) True
+
+# print(5 >= 5)
+
+# print(5 > 5)
+
+# print(5 == 5)
+
+
+
+
+# for i in range(5):
+#     print(i)
+
+
+# amount = int(input('Enter the amount of seats available'))
+
+
+# while amount > 0:
+#     print('selling tickets')
+#     amount -= 1
+
+
+
+# password = 'helo123'
+# guess = 'helo12'
+
+# print(password != guess)
+
+
+
+# password = 'helo123'
+# guess = input('Guess the password: ')
+
+# while password != guess:
+#     guess = input('Guess the password: ')
+
+# print('You got the right password!')
+
+
+
+# age = int(input('Enter Your age'))
+
+# if age < 18:
+#     print('Shen ver uyureb am films')
+
+# if age >= 18:
+#     print('shen shegidzlia filmis yureba')
+
+
+# age = 20
+
+
+# if age >= 18:
+#     print('discount')
+
+# if age < 18:
+#     print('regular price')
+
+
+print(True or False)
+p
