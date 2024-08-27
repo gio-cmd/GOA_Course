@@ -164,5 +164,122 @@
 #     print('regular price')
 
 
-print(True or False)
-p
+
+
+
+# normal = 80
+# user_heart_rate = 100
+
+# # print(user_heart_rate > normal)
+# # print('Slow down a bit')
+
+
+# # თუ მომხმარებლის გულის ცემა მეტია ნორმალურზე მაშინ:
+# if user_heart_rate > normal:
+#     print('Slow down a bit')
+
+# # სხვა შემთხვევაში
+# else:
+#     print('Your heartbeat is normal')
+
+
+
+# temp = 36
+
+# if temp > 39:
+#     print('High fever')
+    
+
+# else:
+#     print('No fever')
+
+
+# თუ მომხმარებელი არაის 18 წელზე ნაკლების მაგ შემთხვევაში მას აქ 50% ფასდაკლება
+
+
+# item = 200
+
+# age = int(input('Enter your age: '))
+
+
+# if age < 18: print('U have discount')
+
+# print('Pay the price')
+
+
+# age = 75
+
+
+# if age < 18:
+#     print('U have discount')
+
+# if age >= 75:
+#     print('u have discount')
+
+
+# age > 75
+# age == 75
+
+
+
+# grade = 10
+
+
+# if grade == 10:
+#     print('U did great in school')
+# elif grade == 9:
+#     print('U also did great but u could have done better')
+# elif grade == 8:
+#     print('U did well')
+# elif grade == 7:
+#     print('u could have done better')
+
+
+
+
+
+
+
+
+
+# age = 27
+
+# if age > 18:
+#     print('asda')
+# else:
+#     print('asdas')
+
+
+# num1 = int(input('enter a num: '))
+# num2 = int(input('enter a num: '))
+
+
+# if num1 > num2:
+#     print(num1)
+
+# else:
+#     print(num2)
+
+
+
+# score = 50
+
+
+# #თუ ქულა არის 90ზე მეტი მაშინ მომხმარებელმა მიიღო A და დაპრიმტე ეს print("A")
+# if score > 90:
+#     print('A')
+
+# # თუ 80 ზე მეტია მაშინ "B"
+
+# elif score > 80:
+#     print('B')
+
+
+
+
+list = ["hello", 'a', 'a', '!', 'helo']
+
+
+index = list.index('a')
+
+list[index] = 'a'
