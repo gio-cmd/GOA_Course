@@ -3,24 +3,19 @@ import './App.css';
 import Counter from './counter';
 import Toggle from './toggle';
 import ParagraphVsibility from './paragraphVisibility';
+import ColorChanger from './colorChanger';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <ColorChanger />
       </header>
+      <main>
+        <Counter />
+        <ParagraphVsibility />
+        <Toggle />
+      </main>
     </div>
   );
 }
