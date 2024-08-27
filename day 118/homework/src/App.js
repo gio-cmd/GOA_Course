@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Counter from './counter';
 import Toggle from './toggle';
+import ParagraphVsibility from './paragraphVisibility';
 
 function App() {
   return (
