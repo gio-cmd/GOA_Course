@@ -1,17 +1,16 @@
 import React, { useState } from 'react';
 
 function Contact() {
-  const password = 'swordfish';
+  const password = 'giorgi123';
   const [authorized, setAuthorized] = useState(false);
 
   function handleSubmit(e) {
-    e.preventDefault(); // Prevent form submission from refreshing the page
+    e.preventDefault(); 
     const enteredPassword = e.target.querySelector('input[type="password"]').value;
-    const auth = enteredPassword === password;
-    setAuthorized(auth);
+    const verification = enteredPassword === password;
+    setAuthorized(verification);
   }
 
-  // Create the login form JSX
   const login = (
     <form action="#" onSubmit={handleSubmit}>
       <input type="password" placeholder="Password" />
@@ -19,11 +18,10 @@ function Contact() {
     </form>
   );
 
-  // Create the contact info JSX
   const contactInfo = (
     <ul>
-      <li>client@example.com</li>
-      <li>555.555.5555</li>
+      <li>vanishvilig1org2@gmail.com</li>
+      <li>595 80 64 76</li>
     </ul>
   );
 

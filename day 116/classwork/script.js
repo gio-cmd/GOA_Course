@@ -1,0 +1,1 @@
+// coudnt attend the class so the classowrk i did was coding codeacademy while listening to the lesson
