@@ -1,0 +1,1 @@
+// did codeacademy as a classwork since i coudnt attend actual lesson
