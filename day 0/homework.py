@@ -277,9 +277,311 @@
 
 
 
-list = ["hello", 'a', 'a', '!', 'helo']
+# list = ["hello", 'a', 'a', '!', 'helo']
 
 
-index = list.index('a')
+# index = list.index('a')
 
-list[index] = 'a'
+# list[index] = 'a'
+
+# age = int(input('Enter your age: '))
+# price = 100
+
+# if age < 18:
+#     print('price is ' + str(100 // 2))
+# else:
+#     print('price is ' + str(price))
+
+# print('proceed to payment')
+
+
+# balance = 1000
+
+# if balance < 500:
+#     print('You have less money than 500: ' + str(balance))
+
+# else:
+#     print('you have more than 500: ' + str(balance))
+
+
+
+
+# score = 50
+# თუ score მეტია 60ზე მაშინ ჩააბარე
+# სხვა შემთხვევაში ჩაიჭერი
+# თუ შენ აიღე 50 ქულა მაშინ შენ ხარ საშვალო
+# if score == 50:
+
+# if score < 60 ზე მაშინ ჩაიწერი
+
+
+
+# if score == 50:
+#     print('You are average: ' + str(score))
+
+# elif score < 60:
+#     print('u have failed the exams: ' + str(score))
+
+# else:
+#     print('you have passed exams: ' + str(score))
+
+
+
+# for i in range(100, 200):
+#     print(i)
+
+
+# count = 1
+
+# while count < 10:
+#     print(count)
+#     count = count + 1
+
+
+
+
+# name1 = 'nika'
+# name2 = 'mari'
+# name100000000 = 'givi'
+
+
+#           0        1        2       3      4
+# names = ['giorgi', 'nika', 'luka', 'mate', 'givi']
+
+
+# print(names[2])
+# names[2] = 'zuka'
+
+
+# string = 'hello'
+# string[2] = 'a'
+
+# გამოვიტანოთ პირველი და 3 მე ელემენტების ჯამი
+
+
+#       0  1  2  3
+# nums = [1, 5, 4, 8]
+
+
+# print(nums[0] + nums[2])
+
+
+
+#          0  1  2  3  4
+# numbers = [1, 2, 3, 4, 5]
+
+
+
+# #           0          1           2        3      4
+# words = ['hello', 'gamarjoba', 'privet', 'bonju', 0.5]
+
+# print(words[0])
+# print(words[2])
+
+# words[0] = 'word'
+# words[1] = 'word2'
+
+# print(words)
+
+
+#       0  1  2  3
+# nums = [1, 3, 4, 5]
+
+
+# print(nums[0] + nums[2])
+
+
+#      0  1  2  3  4  5
+# nums = [1, 2, 3, 4, 5]
+
+
+
+# # start - 
+# # end -
+# # step -
+
+# print(nums[::-1])
+
+
+
+#   0    1    2    3    4
+# c = ['$', '£', '€', '¥']
+
+
+
+# print(c[1:])
+
+
+
+# list = ['hello', 'გამარჯობა', 'privet']
+
+# list[0] = 'Bonjour'
+
+# print(list)
+
+
+# word = 'hello'
+
+# word[0] = 'g'
+
+# print(word)
+
+
+# დაწერე პრინტი 10ჯერ 
+
+
+
+
+# დაწერე პრინტი 20ჯერ
+
+
+# built in - ჩაშენებული
+
+
+# def print_hello():
+#     print('Hello my name is giorgi')
+#     print('Hello my name is giorgi')
+#     print('Hello my name is giorgi')
+#     print('Hello my name is giorgi')
+#     print('Hello my name is giorgi')
+#     print('Hello my name is giorgi')
+#     print('Hello my name is giorgi')
+#     print('Hello my name is giorgi')
+#     print('Hello my name is giorgi')
+#     print('Hello my name is giorgi')
+#     print('Hello my name is giorgi')
+
+# print_hello()
+# print_hello()
+# print_hello()
+
+
+
+from turtle import *
+
+# forward(200)
+# left(90)
+# forward(200)
+# left(90)
+# forward(200)
+# left(90)
+# forward(200)
+# left(90)
+
+
+# penup()
+# goto(-350, 0)
+# pendown()
+
+# forward(200)
+# left(90)
+# forward(200)
+# left(90)
+# forward(200)
+# left(90)
+# forward(200)
+# left(90)
+
+# penup()
+# goto(-350, -350)
+# pendown()
+
+# forward(200)
+# left(90)
+# forward(200)
+# left(90)
+# forward(200)
+# left(90)
+# forward(200)
+# left(90)
+
+# penup()
+# goto(0, -350)
+# pendown()
+
+# forward(200)
+# left(90)
+# forward(200)
+# left(90)
+# forward(200)
+# left(90)
+# forward(200)
+# left(90)
+
+# exitonclick()
+
+
+
+# for i in range(4):
+#     forward(200)
+#     left(90)
+
+# penup()
+# goto(-350, 0)
+# pendown()
+
+# for i in range(4):
+#     forward(200)
+#     left(90)
+
+# penup()
+# goto(-350, -350)
+# pendown()
+
+# for i in range(4):
+#     forward(200)
+#     left(90)
+
+# penup()
+# goto(0, -350)
+# pendown()
+
+# for i in range(4):
+#     forward(200)
+#     left(90)
+
+age = 18
+
+# print("Hello")
+# print(type(age))
+
+
+# exitonclick()
+
+def print_hello(name, age):
+    return "Helo"
+
+
+
+# print_hello('luka', 15)
+# print_hello('giorgi', 12)
+
+# keyword def, functions name, parentheses
+def paint():
+    for i in range(4):
+        forward(200)
+        left(90)
+def move(x, y):
+    penup()
+    goto(x, y)
+    pendown()
+
+paint()
+move(-350, 0)
+paint()
+move(-350, -350)
+paint()
+move(0, -350)
+paint()
+
+exitonclick()
+
+# 1. უნდა გვქონდეს ფუნქციის სახელი
+# 2. გვჭირდება ფრჩხილები
+# 3. უნდა ასრულებდეს რაღაც მოვალეობას
+
+# 1. 49 lines
+# 2. 28 lines
+# 3. 20 lines
+# 4. 13 lines
+
