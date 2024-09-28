@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useTheme } from './themeContext';
 import { useUser } from './UserContext';
-import { useLanguage } from './LanguageContext';  // Import LanguageContext
+import { useLanguage } from './LanguageContext';  
 
 function App() {
   const { theme, toggleTheme } = useTheme();
