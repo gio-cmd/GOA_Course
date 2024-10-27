@@ -548,8 +548,8 @@ age = 18
 
 # exitonclick()
 
-def print_hello(name, age):
-    return "Helo"
+# def print_hello(name, age):
+#     return "Helo"
 
 
 
@@ -557,24 +557,24 @@ def print_hello(name, age):
 # print_hello('giorgi', 12)
 
 # keyword def, functions name, parentheses
-def paint():
-    for i in range(4):
-        forward(200)
-        left(90)
-def move(x, y):
-    penup()
-    goto(x, y)
-    pendown()
+# def paint():
+#     for i in range(4):
+#         forward(200)
+#         left(90)
+# def move(x, y):
+#     penup()
+#     goto(x, y)
+#     pendown()
 
-paint()
-move(-350, 0)
-paint()
-move(-350, -350)
-paint()
-move(0, -350)
-paint()
+# paint()
+# move(-350, 0)
+# paint()
+# move(-350, -350)
+# paint()
+# move(0, -350)
+# paint()
 
-exitonclick()
+# exitonclick()
 
 # 1. უნდა გვქონდეს ფუნქციის სახელი
 # 2. გვჭირდება ფრჩხილები
@@ -584,4 +584,28 @@ exitonclick()
 # 2. 28 lines
 # 3. 20 lines
 # 4. 13 lines
+
+
+
+# print() # print
+# type() # type
+# input() # input
+
+
+
+# print('My name is\n')
+# print('Giorgi')
+
+
+# num = 55
+
+# print(str(num))
+
+# from turtle import *
+
+# forward(200)
+
+# exitonclick()
+
+
 
